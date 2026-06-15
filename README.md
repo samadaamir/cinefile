@@ -1,16 +1,93 @@
-# React + Vite
+# 🎬 CineFile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineFile is a modern movie discovery web application built with React and Tailwind CSS. It allows users to browse popular movies, view detailed information, and explore trending films through a clean and responsive interface powered by The Movie Database (TMDB) API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Dynamic Hero Section with auto-changing movie banners
+* Fetches real-time movie data from TMDB API
+* Responsive movie card layout
+* Movie details with title, release date, and overview
+* Direct links to movie pages on TMDB
+* Smooth hover animations and transitions
+* Fully responsive design for desktop and mobile devices
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Tailwind CSS
+* JavaScript (ES6+)
+* TMDB API
+* Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/
+│ ├── Hero.jsx
+│ ├── Card.jsx
+│ └── Footer.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/cinefile.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd cinefile
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## 🔑 API Configuration
+
+Create an account on TMDB and generate an API key.
+
+## 📱 Responsive Design
+
+CineFile is designed to work seamlessly across:
+
+* Desktop
+* Tablet
+* Mobile Devices
+
+## 🎯 Learning Outcomes
+
+This project helped practice:
+
+* React Components
+* Props
+* State Management with useState
+* Side Effects with useEffect
+* API Fetching
+* Conditional Rendering
+* Responsive UI Design
+* Tailwind CSS Utility Classes
+
+## 📜 License
+
+This project is created for educational and portfolio purposes.
+
+## 🙏 Acknowledgements
+
+Movie data provided by The Movie Database (TMDB).
+
+https://www.themoviedb.org/
