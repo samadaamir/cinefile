@@ -36,7 +36,7 @@ src/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/cinefile.git
+git clone https://github.com/samadaamir/cinefile.git
 ```
 
 2. Navigate to the project directory
